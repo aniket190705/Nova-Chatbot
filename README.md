@@ -1,5 +1,5 @@
 # 🤖 Company Assistant Chatbot  
-*A context-aware AI assistant powered by Hugging Face LLMs, Astra DB Vector Database, and LangFlow.*
+*A context-aware AI assistant powered by Google's Gemini LLMs, Astra DB Vector Database, and LangFlow.*
 
 ---
 

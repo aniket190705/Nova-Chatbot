@@ -32,11 +32,14 @@ const App = () => {
     setShowTyping(true);
 
     try {
-      const response = await fetch("http://localhost:8000/runFlow", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message }),
-      });
+      const response = await fetch(
+        "https://nova-chatbot-dm1u.onrender.com/runFlow",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message }),
+        }
+      );
 
       const result = await response.json();
 
@@ -87,7 +90,7 @@ const App = () => {
         </div>
 
         <a
-          href="https://github.com/aniket190705/InsightFactor"
+          href="https://github.com/aniket190705/Nova-Chatbot"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-teal-600 transition"

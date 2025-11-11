@@ -7,10 +7,10 @@
 Company Assistant Chatbot is an **AI-powered retrieval-augmented generation (RAG)** chatbot that answers questions from internal company documents such as policies, handbooks, and guides.  
 
 Built using **LangFlow’s visual pipeline builder**, it connects:
-- 🧠 **Hugging Face LLM** for natural-language reasoning  
+- 🧠 **Google Gemini** for natural-language reasoning  
 - 📄 **PDF / document ingestion** for custom knowledge  
 - 🪣 **Astra DB Vector Store** for fast semantic search  
-- ⚙️ **Hugging Face Embeddings** for text-vector conversion  
+- ⚙️ **Nvidia** for text-vector conversion  
 
 Users can upload a document and chat naturally with the model — every answer is generated using the most relevant context retrieved from your files.
 
